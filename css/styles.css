@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(black);
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav ul li a {
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px; /* Borde redondeado */
+    margin-right: 10px; /* Espacio entre botones */
+    transition: background-color 0.3s ease;
+    background-color: gray;
+
+}
+header {
+    background-color: red;
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    background-color: var(gray);
+}
